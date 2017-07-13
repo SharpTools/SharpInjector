@@ -43,8 +43,8 @@ ServiceLocator.Default.Register<IFoo>(new Foo2()); //throws DuplicateRegistratio
 But...
 
 ```cs
-ServiceLocator.Default.Register<IFoo>(new Foo(), true);
-ServiceLocator.Default.Register<IFoo>(new Foo2()); //replace the registration
+ServiceLocator.Default.Register<IFoo>(new Foo());
+ServiceLocator.Default.Register<IFoo>(new Foo2(), true); //replace the registration
 ```
 
 Enjoy!
