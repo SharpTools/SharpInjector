@@ -2,6 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>Andre Carlucci</Authors>
+    <Description>Micro-DI Framework for net standard</Description>
+    <PackageLicenseUrl>https://github.com/andrecarlucci/SharpInjector/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/SharpTools/SharpInjector</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/SharpTools/SharpInjector</RepositoryUrl>
+    <PackageTags>di, ioc, .net, .netcore, netstandard</PackageTags>
   </PropertyGroup>
 
 </Project>
